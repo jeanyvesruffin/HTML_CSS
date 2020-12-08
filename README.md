@@ -198,3 +198,43 @@ a:hover {
 * Chaque element peut etre reagence en CSS avec `order`.
 * Avec la super-propriete `flex`, on peut autoriser nos elements a occuper plus ou moins d'espace restant.
 
+
+## Exemple FLEX et autre
+
+```css
+// Permet de retirer la puce de la liste
+ul {
+  list-style-type: none;
+}
+// Activation de flex
+#topsection {
+  display:flex;
+}
+// Format du paragraphe
+p {
+  width: 80%;
+  text-align: justify;
+  margin-left:auto;
+  margin-right:auto;
+}
+```
+
+## Autres techniques de mise en page
+
+* La technique de mise en page la plus recente et la plus puissante est Flexbox. C'est celle que vous devriez utiliser si vous en avez la possibilite.
+* D'autres techniques de mise en page restent utilisees, notamment sur des sites plus anciens : le positionnement flottant et le positionnement `inline-block` . Il est conseille de les connaitre.
+* Le positionnement flottant (avec la propriete `float`) est l'un des plus utilises a l'heure actuelle. Il permet par exemple de placer un menu a gauche ou a droite de la page. Neanmoins, cette propriete n'a pas ete initialement conçue pour cela et il est preferable, si possible, d'eviter cette technique.
+* Le positionnement `inline-block` consiste a affecter un type `inline-block`  a nos elements grâce a la propriete `display`. Ils se comporteront comme des inlines (placement de gauche a droite) mais pourront etre redimensionnes comme des blocs (avec `width`  et `height`). Cette technique est a preferer au positionnement flottant.
+* Le positionnement absolu permet de placer un element où l'on souhaite sur la page, au pixel pres.
+* Le positionnement fixe est identique au positionnement absolu, mais l'element restera toujours visible même si on descend plus bas dans la page.
+* Le positionnement relatif permet de decaler un bloc par rapport a sa position normale.
+* Un element A positionne en absolu a l'interieur d'un autre element B (lui-même positionne en absolu, fixe ou relatif) se positionnera par rapport a l'element B, et non par rapport au coin en haut a gauche de la page.
+
+
+
+
+
+
+
+
+
