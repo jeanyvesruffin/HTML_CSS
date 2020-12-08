@@ -56,7 +56,7 @@
 </html>
 ```
 
-[Cheat sheet HTML](Resources/HTML-CHEAT-SHEET.png)
+[Cheat sheet HTML](WebContent/Resources/HTML-CHEAT-SHEET.png)
 
 ## Creez des liens (hyperlink)
 
