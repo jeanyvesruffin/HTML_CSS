@@ -5,7 +5,7 @@
 
 * Le Web a ete invente par Tim Berners-Lee au debut des annees 1990.
 * Pour creer des sites web, on utilise deux langages informatiques :
-	* HTML : permet d'ecrire et organiser le contenu de la page (paragraphes, titres…) ;
+	* HTML : permet d'ecrire et organiser le contenu de la page (paragraphes, titres…)
 	* CSS : permet de mettre en forme la page (couleur, taille…).
 
 * Il y a eu plusieurs versions des langages HTML et CSS. Les dernieres versions sont HTML5 et CSS3.
@@ -19,19 +19,19 @@
 * Ce fichier peut etre ouvert dans le navigateur web simplement en faisant un double-clic dessus.
 * A l'interieur du fichier, nous ecrirons le contenu de notre page, accompagne de balises HTML.
 * Les balises peuvent avoir plusieurs formes :
-	* <balise> </balise>  : elles s'ouvrent et se ferment pour delimiter le contenu (debut et fin d'un titre, par exemple) ;
-	* <balise />  : balises orphelines (on ne les insere qu'en un seul exemplaire), elles permettent d'inserer un element a un endroit precis (par exemple une image).
-* Les balises sont parfois accompagnees d'attributs pour donner des indications supplementaires (exemple : <image nom="photo.jpg" />).
-* Une page web est constituee de deux sections principales : un en-tete ( <head>  ) et un corps ( <body>  ).
+	* `<balise> </balise>`  : elles s'ouvrent et se ferment pour delimiter le contenu (debut et fin d'un titre, par exemple) ;
+	* `<balise />`  : balises orphelines (on ne les insere qu'en un seul exemplaire), elles permettent d'inserer un element a un endroit precis (par exemple une image).
+* Les balises sont parfois accompagnees d'attributs pour donner des indications supplementaires (exemple : `<image nom="photo.jpg" />`).
+* Une page web est constituee de deux sections principales : un en-tete ( `<head>`  ) et un corps ( `<body>`  ).
 * On peut afficher le code source de n'importe quelle page web en faisant un clic droit puis en selectionnant *Afficher le code source de la page*.
 
 ## Organisez votre texte
 
 * Le HTML comporte de nombreuses balises qui nous permettent d'organiser le texte de notre page. Ces balises donnent des indications comme « Ceci est un paragraphe », « Ceci est un titre », etc.
-* Les paragraphes sont definis par la balise <p> </p>  , et les sauts de ligne par la balise <br />  .
-* Il existe six niveaux de titre, de <h1> </h1>  a <h6> </h6>  , a utiliser selon l'importance du titre.
-* On peut mettre en valeur certains mots avec les balises <strong>  , <em>  et <mark>  .
-* Pour creer des listes, on doit utiliser la balise <ul>  (liste a puces, non ordonnee) ou <ol>  (liste ordonnee). a l'interieur, on insere les elements avec une balise <li>  pour chaque item.
+* Les paragraphes sont definis par la balise `<p></p>`, et les sauts de ligne par la balise `<br/>`.
+* Il existe six niveaux de titre, de `<h1></h1>`  a `<h6></h6>`  , a utiliser selon l'importance du titre.
+* On peut mettre en valeur certains mots avec les balises `<strong>`  , `<em>`  et `<mark>`  .
+* Pour creer des listes, on doit utiliser la balise `<ul>`  (liste a puces, non ordonnee) ou `<ol>`  (liste ordonnee). a l'interieur, on insere les elements avec une balise `<li>`  pour chaque item.
 
 ## Pratique
 
@@ -56,5 +56,5 @@
 </html>
 ```
 
-[Cheat sheet](/HTML_CSS/Resources/HTML-CHEAT-SHEET.png)
+[Cheat sheet HTML](Resources/HTML-CHEAT-SHEET.png)
 
