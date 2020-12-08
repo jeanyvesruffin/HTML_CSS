@@ -58,3 +58,32 @@
 
 [Cheat sheet HTML](Resources/HTML-CHEAT-SHEET.png)
 
+## Creez des liens (hyperlink)
+
+* Les liens permettent de changer de page et sont, par defaut, ecrits en bleu et soulignes.
+* Pour inserer un lien, on utilise la balise `<a>`  avec l'attribut href  pour indiquer l'adresse de la page cible. Exemple : `<a href="https://openclassrooms.com">`.
+* On peut faire un lien vers une autre page de son site, simplement en ecrivant le nom du fichier : `<a href="page2.html">`.
+* Les liens permettent aussi d'amener vers d'autres endroits sur la même page. Il faut creer une ancre avec l'attribut id  pour « marquer » un endroit dans la page, puis faire un lien vers l'ancre comme ceci : `<a href="#ancre">`.
+
+## Inserez des images
+
+* Il existe plusieurs formats d'images adaptees au Web :
+	* JPEG : pour les photos
+	* PNG : pour toutes les autres illustrations
+	* GIF : similaire au PNG, plus limite en nombre de couleurs mais qui peut être anime
+
+* On insere une image avec la balise  `<img />`. Elle doit obligatoirement comporter au moins ces deux attributs :  src  (nom de l'image) et  alt  (courte description de l'image).
+* Si une image illustre le texte (et n'est pas seulement decorative), il est conseille de la placer au sein d'une balise  `<figure>`  . La balise  `<figcaption>`  permet d'ecrire la legende de l'image.
+
+## Entrainez-vous en structurant votre CV
+
+* etape 1 : Creez une page HTML.
+* etape 2 : Ajoutez votre nom et votre prenom en titre principal.
+* etape 3 : Ajoutez une photo miniature, sur laquelle on pourra cliquer pour avoir une version agrandie.
+* etape 4 : Ajoutez 3 sections avec un titre secondaire (mon experience, mes competences, ma formation). Chaque section contient un paragraphe ou une liste a puce.
+
+
+
+
+
+
