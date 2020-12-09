@@ -230,11 +230,47 @@ p {
 * Le positionnement relatif permet de decaler un bloc par rapport a sa position normale.
 * Un element A positionne en absolu a l'interieur d'un autre element B (lui-même positionne en absolu, fixe ou relatif) se positionnera par rapport a l'element B, et non par rapport au coin en haut a gauche de la page.
 
+# Fonctionnalites evoluees
+## Ajouter des tableaux
 
+* Un tableau s'insere avec la balise `<table>`  et se definit ligne par ligne avec `<tr>`.
+* Chaque ligne comporte des cellules `<td>`  (cellules normales) ou `<th>`  (cellules d'en-tete).
+* Le titre du tableau se definit avec `<caption>`.
+* On peut ajouter une bordure aux cellules du tableau avec `border`. Pour fusionner les bordures, on utilise la propriete CSS `border-collapse`.
+* Un tableau peut etre divise en trois sections : `<thead>`  (en-tête), `<tbody>`  (corps) et `<tfoot>`  (bas du tableau). L'utilisation de ces balises n'est pas obligatoire.
+* On peut fusionner des cellules horizontalement avec l'attribut `colspan`  ou verticalement avec `rowspan`. Il faut indiquer combien de cellules doivent etre fusionnees.
 
+## Creez des formulaires
 
+* Un formulaire est une zone interactive de la page, dans laquelle vos visiteurs peuvent saisir des informations.
+* On delimite un formulaire avec la balise `<form>`, a laquelle il faut ajouter deux attributs : `method`(mode d'envoi des donnees) et `action` (page vers laquelle le visiteur sera redirige apres envoi du formulaire, et qui traitera les informations).
+* Une grande partie des elements du formulaire peut s'inserer avec la balise `<input />`. La valeur de son attribut type  permet d'indiquer quel type de champ doit être insere :
+	* `text` : zone de texte
+	* `password`: zone de texte pour mot de passe
+	* `tel`: numero de telephone
+	* `checkbox`: case a cocher
 
+* La balise `<label>` permet d'ecrire un libelle. On l'associe a un champ de formulaire avec l'attribut `for`, qui doit avoir la même valeur que l' `id` du champ de formulaire.
+* On peut rendre un champ obligatoire avec l'attribut `required`, faire en sorte qu'il soit selectionne par defaut avec `autofocus`, donner une indication dans le champ avec `placeholder`.
+* Pour recuperer ce que les visiteurs ont saisi, le langage HTML ne suffit pas. Il faut utiliser un langage « serveur » comme PHP.
 
+## Enrichissez votre site avec de la video et de l'audio
 
+* Inserer de la musique ou de la video n'etait pas possible autrefois en HTML. Il fallait recourir a un plugin comme Flash.
+* Depuis HTML5, les balises `<audio>`  et `<video>`  ont ete introduites et permettent de jouer de la musique et des videos sans plugin..
+* Il existe plusieurs formats audio et video. Il faut notamment connaître :
+	* pour l'audio : MP3 et Ogg Vorbis ;
+	* pour la video : H.264, Ogg Theora et WebM.
 
+* Aucun format n'est reconnu par l'ensemble des navigateurs : il faut proposer differentes versions de sa musique ou de sa video pour satisfaire tous les navigateurs.
+* Il faut ajouter l'attribut controls  aux balises `<audio>`  et `<video>`  pour permettre au visiteur de lancer ou d'arrêter le media.
+* Ces balises ne sont pas conçues pour empêcher le telechargement de la musique et de la video. Vous ne pouvez pas proteger votre media contre la copie.
+
+## Utilisez le responsive design avec les Media Queries
+
+* Les media queries permettent de charger des styles CSS differents en fonction de certains parametres.
+* Les parametres autorises par les media queries sont nombreux : nombre de couleurs, resolution de l'ecran, orientation… En pratique, on s'en sert surtout pour modifier l'apparence du site en fonction des differentes resolutions d'ecran.
+* On cree une media query avec la directive `@media`  suivie du type d'ecran et d'une ou plusieurs conditions (comme la largeur maximale d'ecran). Le style CSS qui suit sera active uniquement si les conditions sont remplies.
+* Les navigateurs mobiles simulent une largeur d'ecran : on appelle cela le `viewport`.
+* On peut cibler les smartphones grace a une regle basee sur le nombre reel de pixels affiches a l'ecran : `max-device-width`.
 
