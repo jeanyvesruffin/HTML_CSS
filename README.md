@@ -36,13 +36,13 @@
 
 * Le Web a ete invente par Tim Berners-Lee au debut des annees 1990.
 * Pour creer des sites web, on utilise deux langages informatiques :
-	* HTML : permet d'ecrire et organiser le contenu de la page (paragraphes, titres�)
-	* CSS : permet de mettre en forme la page (couleur, taille�).
+	* HTML : permet d'ecrire et organiser le contenu de la page (paragraphes, titres)
+	* CSS : permet de mettre en forme la page (couleur, taille).
 
 * Il y a eu plusieurs versions des langages HTML et CSS. Les dernieres versions sont HTML5 et CSS3.
 * Le navigateur web est un programme qui permet d'afficher des sites web. Il lit les langages HTML et CSS pour savoir ce qu'il doit afficher.
-* Il existe de nombreux navigateurs web differents : Google Chrome, Mozilla Firefox, Internet Explorer, Safari, Opera� Chacun affiche un site web de maniere legerement differente des autres navigateurs.
-* Nous allons apprendre a utiliser les langages HTML et CSS. Nous travaillerons dans un programme appele � editeur de texte � (Sublime Text, Notepad++, jEdit, vim�).
+* Il existe de nombreux navigateurs web differents : Google Chrome, Mozilla Firefox, Internet Explorer, Safari, Opera. Chacun affiche un site web de maniere legerement differente des autres navigateurs.
+* Nous allons apprendre a utiliser les langages HTML et CSS. Nous travaillerons dans un programme appele editeur de texte (Sublime Text, Notepad++, jEdit, vim).
 
 ## Creez votre premiere page web en HTML
 
@@ -58,7 +58,7 @@
 
 ## Organisez votre texte
 
-* Le HTML comporte de nombreuses balises qui nous permettent d'organiser le texte de notre page. Ces balises donnent des indications comme � Ceci est un paragraphe �, � Ceci est un titre �, etc.
+* Le HTML comporte de nombreuses balises qui nous permettent d'organiser le texte de notre page. Ces balises donnent des indications comme "Ceci est un paragraphe", "Ceci est un titre", etc.
 * Les paragraphes sont definis par la balise `<p></p>`, et les sauts de ligne par la balise `<br/>`.
 * Il existe six niveaux de titre, de `<h1></h1>`  a `<h6></h6>`  , a utiliser selon l'importance du titre.
 * On peut mettre en valeur certains mots avec les balises `<strong>`  , `<em>`  et `<mark>`  .
@@ -76,10 +76,10 @@
 
   <body>
     <h1>Les animaux merveilleux</h1>
-    <p>Voici mes animaux pr�f�r�s :
+    <p>Voici mes animaux preferes :
     <ol>
       <li><strong>La giraffe</strong></li>
-      <li>La galinette cendr�e</li>
+      <li>La galinette cendree</li>
       <li>La rainette</li>
     </ol>
     </p>
@@ -94,14 +94,14 @@
 * Les liens permettent de changer de page et sont, par defaut, ecrits en bleu et soulignes.
 * Pour inserer un lien, on utilise la balise `<a>`  avec l'attribut href  pour indiquer l'adresse de la page cible. Exemple : `<a href="https://openclassrooms.com">`.
 * On peut faire un lien vers une autre page de son site, simplement en ecrivant le nom du fichier : `<a href="page2.html">`.
-* Les liens permettent aussi d'amener vers d'autres endroits sur la m�me page. Il faut creer une ancre avec l'attribut id  pour � marquer � un endroit dans la page, puis faire un lien vers l'ancre comme ceci : `<a href="#ancre">`.
+* Les liens permettent aussi d'amener vers d'autres endroits sur la meme page. Il faut creer une ancre avec l'attribut id  pour marquer un endroit dans la page, puis faire un lien vers l'ancre comme ceci : `<a href="#ancre">`.
 
 ## Inserez des images
 
 * Il existe plusieurs formats d'images adaptees au Web :
 	* JPEG : pour les photos
 	* PNG : pour toutes les autres illustrations
-	* GIF : similaire au PNG, plus limite en nombre de couleurs mais qui peut �tre anime
+	* GIF : similaire au PNG, plus limite en nombre de couleurs mais qui peut etre anime
 
 * On insere une image avec la balise  `<img />`. Elle doit obligatoirement comporter au moins ces deux attributs :  src  (nom de l'image) et  alt  (courte description de l'image).
 * Si une image illustre le texte (et n'est pas seulement decorative), il est conseille de la placer au sein d'une balise  `<figure>`  . La balise  `<figcaption>`  permet d'ecrire la legende de l'image.
@@ -139,22 +139,22 @@ balise1
 
 ## Formatez du texte
 
-* On modifie la taille du texte avec la propriete CSS `font-size`  . On peut indiquer la taille en pixels (16px), en � em � (1.3em), en pourcentage (110 %), etc.
+* On modifie la taille du texte avec la propriete CSS `font-size`  . On peut indiquer la taille en pixels (16px), en em (1.3em), en pourcentage (110 %), etc.
 * On change la police du texte avec `font-family`  . Attention, seules quelques polices sont connues par tous les ordinateurs. Vous pouvez cependant utiliser une police personnalisee avec la directive `@font-face`  : cela forcera les navigateurs a telecharger la police de votre choix.
 * De nombreuses proprietes de mise en forme du texte existent : `font-style`  pour l'italique, `font-weight` pour la mise en gras, `text-decoration` pour le soulignement, etc.
 * Le texte peut ere aligne avec `text-align`.
-* On peut faire en sorte qu'une image soit habillee (� entouree �) de texte avec `float`
+* On peut faire en sorte qu'une image soit habillee (entouree) de texte avec `float`
 
 ## Ajoutez de la couleur et un fond
 
 * On change la couleur du texte avec la propriete `color`  , la couleur de fond avec `background-color`.
 * On peut indiquer une couleur en ecrivant son nom en anglais ( `black`  , par exemple), sous forme hexadecimale ( `#FFC8D3`  ) ou en notation RGB ( `rgb(250,25,118)`  ).
-* On peut ajouter une image de fond avec `background-image`. On peut choisir de fixer l'image de fond, de l'afficher en mosaique ou non, et m�me de la positionner ou on veut sur la page.
+* On peut ajouter une image de fond avec `background-image`. On peut choisir de fixer l'image de fond, de l'afficher en mosaique ou non, et meme de la positionner ou on veut sur la page.
 * On peut rendre une portion de la page transparente avec la propriete `opacity`  ou avec la notation RGBa (identique a la notation RGB, avec une quatrieme valeur indiquant le niveau de transparence).
 
 ## Creez des bordures et des ombres
 
-* On peut appliquer une bordure a un element avec la propriete `border`. Il faut indiquer la largeur de la bordure, sa couleur et son type (trait continu, pointilles�).
+* On peut appliquer une bordure a un element avec la propriete `border`. Il faut indiquer la largeur de la bordure, sa couleur et son type (trait continu, pointilles).
 * On peut arrondir les bordures avec `border-radius`.
 * On peut ajouter une ombre aux blocs de texte avec `box-shadow`. On doit indiquer le decalage vertical et horizontal de l'ombre, son niveau d'adoucissement et sa couleur.
 * Le texte peut lui aussi avoir une ombre avec `text-shadow`.
@@ -179,7 +179,7 @@ h1{
 figure{
   text-align:center;
 }
-// Ajoute une bordure continue de 2px en rouge autour de la liste � puces et ajoute une ombre au cadre autour de la liste � puces.
+// Ajoute une bordure continue de 2px en rouge autour de la liste a puces et ajoute une ombre au cadre autour de la liste a puces.
 ul{
   border: solid 2px red;
   box-shadow: 2px 2px blue;
@@ -194,7 +194,7 @@ a:hover {
 # Structurez votre page
 
 * Plusieurs balises ont ete introduites avec HTML5 pour delimiter les differentes zones qui constituent la page web :
-	* `<header>`  : en-t�te
+	* `<header>`  : en-tete
 	* `<footer>`  : pied de page
 	* `<nav>`  : liens principaux de navigation
 	* `<section>`  : section de page
@@ -207,8 +207,8 @@ a:hover {
 ## Decouvrez le modele des boites
 
 * On distingue deux principaux types de balises en HTML :
-	* le type block ( `<p>`  , `<h1>`  �) : ces balises creent un retour a la ligne et occupent par defaut toute la largeur disponible. Elles se suivent de haut en bas ;
-	* le type inline ( `<a>`  , `<strong>`  �) : ces balises delimitent du texte au milieu d'une ligne. Elles se suivent de gauche a droite.
+	* le type block ( `<p>`  , `<h1>`) : ces balises creent un retour a la ligne et occupent par defaut toute la largeur disponible. Elles se suivent de haut en bas ;
+	* le type inline ( `<a>`  , `<strong>`) : ces balises delimitent du texte au milieu d'une ligne. Elles se suivent de gauche a droite.
 * On peut modifier la taille d'une balise de type block avec les proprietes CSS `width`  (largeur) et `height`  (hauteur).
 * On peut definir des minima et maxima autorises pour la largeur et la hauteur: `min-width`,`max-width`, `min-height`, `max-height`.
 * Les elements de la page disposent chacun de marges interieures (`padding`) et exterieures (`margin`).
@@ -254,12 +254,12 @@ p {
 
 * La technique de mise en page la plus recente et la plus puissante est Flexbox. C'est celle que vous devriez utiliser si vous en avez la possibilite.
 * D'autres techniques de mise en page restent utilisees, notamment sur des sites plus anciens : le positionnement flottant et le positionnement `inline-block` . Il est conseille de les connaitre.
-* Le positionnement flottant (avec la propriete `float`) est l'un des plus utilises a l'heure actuelle. Il permet par exemple de placer un menu a gauche ou a droite de la page. Neanmoins, cette propriete n'a pas ete initialement con�ue pour cela et il est preferable, si possible, d'eviter cette technique.
-* Le positionnement `inline-block` consiste a affecter un type `inline-block`  a nos elements gr�ce a la propriete `display`. Ils se comporteront comme des inlines (placement de gauche a droite) mais pourront etre redimensionnes comme des blocs (avec `width`  et `height`). Cette technique est a preferer au positionnement flottant.
-* Le positionnement absolu permet de placer un element o� l'on souhaite sur la page, au pixel pres.
+* Le positionnement flottant (avec la propriete `float`) est l'un des plus utilises a l'heure actuelle. Il permet par exemple de placer un menu a gauche ou a droite de la page. Neanmoins, cette propriete n'a pas ete initialement concue pour cela et il est preferable, si possible, d'eviter cette technique.
+* Le positionnement `inline-block` consiste a affecter un type `inline-block`  a nos elements grace a la propriete `display`. Ils se comporteront comme des inlines (placement de gauche a droite) mais pourront etre redimensionnes comme des blocs (avec `width`  et `height`). Cette technique est a preferer au positionnement flottant.
+* Le positionnement absolu permet de placer un element ou l'on souhaite sur la page, au pixel pres.
 * Le positionnement fixe est identique au positionnement absolu, mais l'element restera toujours visible m�me si on descend plus bas dans la page.
 * Le positionnement relatif permet de decaler un bloc par rapport a sa position normale.
-* Un element A positionne en absolu a l'interieur d'un autre element B (lui-m�me positionne en absolu, fixe ou relatif) se positionnera par rapport a l'element B, et non par rapport au coin en haut a gauche de la page.
+* Un element A positionne en absolu a l'interieur d'un autre element B (lui-meme positionne en absolu, fixe ou relatif) se positionnera par rapport a l'element B, et non par rapport au coin en haut a gauche de la page.
 
 # Fonctionnalites evoluees
 ## Ajouter des tableaux
@@ -268,39 +268,39 @@ p {
 * Chaque ligne comporte des cellules `<td>`  (cellules normales) ou `<th>`  (cellules d'en-tete).
 * Le titre du tableau se definit avec `<caption>`.
 * On peut ajouter une bordure aux cellules du tableau avec `border`. Pour fusionner les bordures, on utilise la propriete CSS `border-collapse`.
-* Un tableau peut etre divise en trois sections : `<thead>`  (en-t�te), `<tbody>`  (corps) et `<tfoot>`  (bas du tableau). L'utilisation de ces balises n'est pas obligatoire.
+* Un tableau peut etre divise en trois sections : `<thead>`  (en-tete), `<tbody>`  (corps) et `<tfoot>`  (bas du tableau). L'utilisation de ces balises n'est pas obligatoire.
 * On peut fusionner des cellules horizontalement avec l'attribut `colspan`  ou verticalement avec `rowspan`. Il faut indiquer combien de cellules doivent etre fusionnees.
 
 ## Creez des formulaires
 
 * Un formulaire est une zone interactive de la page, dans laquelle vos visiteurs peuvent saisir des informations.
 * On delimite un formulaire avec la balise `<form>`, a laquelle il faut ajouter deux attributs : `method`(mode d'envoi des donnees) et `action` (page vers laquelle le visiteur sera redirige apres envoi du formulaire, et qui traitera les informations).
-* Une grande partie des elements du formulaire peut s'inserer avec la balise `<input />`. La valeur de son attribut type  permet d'indiquer quel type de champ doit �tre insere :
+* Une grande partie des elements du formulaire peut s'inserer avec la balise `<input />`. La valeur de son attribut type  permet d'indiquer quel type de champ doit etre insere :
 	* `text` : zone de texte
 	* `password`: zone de texte pour mot de passe
 	* `tel`: numero de telephone
 	* `checkbox`: case a cocher
 
-* La balise `<label>` permet d'ecrire un libelle. On l'associe a un champ de formulaire avec l'attribut `for`, qui doit avoir la m�me valeur que l' `id` du champ de formulaire.
+* La balise `<label>` permet d'ecrire un libelle. On l'associe a un champ de formulaire avec l'attribut `for`, qui doit avoir la meme valeur que l' `id` du champ de formulaire.
 * On peut rendre un champ obligatoire avec l'attribut `required`, faire en sorte qu'il soit selectionne par defaut avec `autofocus`, donner une indication dans le champ avec `placeholder`.
-* Pour recuperer ce que les visiteurs ont saisi, le langage HTML ne suffit pas. Il faut utiliser un langage � serveur � comme PHP.
+* Pour recuperer ce que les visiteurs ont saisi, le langage HTML ne suffit pas. Il faut utiliser un langage serveur comme PHP.
 
 ## Enrichissez votre site avec de la video et de l'audio
 
 * Inserer de la musique ou de la video n'etait pas possible autrefois en HTML. Il fallait recourir a un plugin comme Flash.
 * Depuis HTML5, les balises `<audio>`  et `<video>`  ont ete introduites et permettent de jouer de la musique et des videos sans plugin..
-* Il existe plusieurs formats audio et video. Il faut notamment conna�tre :
+* Il existe plusieurs formats audio et video. Il faut notamment connaitre :
 	* pour l'audio : MP3 et Ogg Vorbis ;
 	* pour la video : H.264, Ogg Theora et WebM.
 
 * Aucun format n'est reconnu par l'ensemble des navigateurs : il faut proposer differentes versions de sa musique ou de sa video pour satisfaire tous les navigateurs.
-* Il faut ajouter l'attribut controls  aux balises `<audio>`  et `<video>`  pour permettre au visiteur de lancer ou d'arr�ter le media.
-* Ces balises ne sont pas con�ues pour emp�cher le telechargement de la musique et de la video. Vous ne pouvez pas proteger votre media contre la copie.
+* Il faut ajouter l'attribut controls  aux balises `<audio>`  et `<video>`  pour permettre au visiteur de lancer ou d'arreter le media.
+* Ces balises ne sont pas concues pour empecher le telechargement de la musique et de la video. Vous ne pouvez pas proteger votre media contre la copie.
 
 ## Utilisez le responsive design avec les Media Queries
 
 * Les media queries permettent de charger des styles CSS differents en fonction de certains parametres.
-* Les parametres autorises par les media queries sont nombreux : nombre de couleurs, resolution de l'ecran, orientation� En pratique, on s'en sert surtout pour modifier l'apparence du site en fonction des differentes resolutions d'ecran.
+* Les parametres autorises par les media queries sont nombreux : nombre de couleurs, resolution de l'ecran, orientation. En pratique, on s'en sert surtout pour modifier l'apparence du site en fonction des differentes resolutions d'ecran.
 * On cree une media query avec la directive `@media`  suivie du type d'ecran et d'une ou plusieurs conditions (comme la largeur maximale d'ecran). Le style CSS qui suit sera active uniquement si les conditions sont remplies.
 * Les navigateurs mobiles simulent une largeur d'ecran : on appelle cela le `viewport`.
 * On peut cibler les smartphones grace a une regle basee sur le nombre reel de pixels affiches a l'ecran : `max-device-width`.
