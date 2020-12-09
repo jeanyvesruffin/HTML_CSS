@@ -305,3 +305,4 @@ p {
 * Les navigateurs mobiles simulent une largeur d'ecran : on appelle cela le `viewport`.
 * On peut cibler les smartphones grace a une regle basee sur le nombre reel de pixels affiches a l'ecran : `max-device-width`.
 
+![CV RUFFIN](WebContent/Resources/CV_RUFFIN.png)
