@@ -42,7 +42,7 @@
 * Il y a eu plusieurs versions des langages HTML et CSS. Les dernieres versions sont HTML5 et CSS3.
 * Le navigateur web est un programme qui permet d'afficher des sites web. Il lit les langages HTML et CSS pour savoir ce qu'il doit afficher.
 * Il existe de nombreux navigateurs web differents : Google Chrome, Mozilla Firefox, Internet Explorer, Safari, Opera. Chacun affiche un site web de maniere legerement differente des autres navigateurs.
-* Nous allons apprendre a utiliser les langages HTML et CSS. Nous travaillerons dans un programme appele editeur de texte (Sublime Text, Notepad++, jEdit, vim).
+* Nous allons apprendre a utiliser les langages HTML et CSS. Nous travaillerons dans un programme appele editeur de texte (Sublime Text, Notepad++, jEdit, vim)
 
 ## Creez votre premiere page web en HTML
 
@@ -257,7 +257,7 @@ p {
 * Le positionnement flottant (avec la propriete `float`) est l'un des plus utilises a l'heure actuelle. Il permet par exemple de placer un menu a gauche ou a droite de la page. Neanmoins, cette propriete n'a pas ete initialement concue pour cela et il est preferable, si possible, d'eviter cette technique.
 * Le positionnement `inline-block` consiste a affecter un type `inline-block`  a nos elements grace a la propriete `display`. Ils se comporteront comme des inlines (placement de gauche a droite) mais pourront etre redimensionnes comme des blocs (avec `width`  et `height`). Cette technique est a preferer au positionnement flottant.
 * Le positionnement absolu permet de placer un element ou l'on souhaite sur la page, au pixel pres.
-* Le positionnement fixe est identique au positionnement absolu, mais l'element restera toujours visible m�me si on descend plus bas dans la page.
+* Le positionnement fixe est identique au positionnement absolu, mais l'element restera toujours visible meme si on descend plus bas dans la page.
 * Le positionnement relatif permet de decaler un bloc par rapport a sa position normale.
 * Un element A positionne en absolu a l'interieur d'un autre element B (lui-meme positionne en absolu, fixe ou relatif) se positionnera par rapport a l'element B, et non par rapport au coin en haut a gauche de la page.
 
