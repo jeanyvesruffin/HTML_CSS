@@ -46,7 +46,7 @@
 
 ## Creez votre premiere page web en HTML
 
-* On utilise l'editeur de texte (Sublime Text, Notepad++, jEdit, vim�) pour creer un fichier ayant l'extension .html  (par exemple : test.html  ). Ce sera notre page web.
+* On utilise l'editeur de texte (Sublime Text, Notepad++, jEdit, vim) pour creer un fichier ayant l'extension .html  (par exemple : test.html  ). Ce sera notre page web.
 * Ce fichier peut etre ouvert dans le navigateur web simplement en faisant un double-clic dessus.
 * A l'interieur du fichier, nous ecrirons le contenu de notre page, accompagne de balises HTML.
 * Les balises peuvent avoir plusieurs formes :
