@@ -2,6 +2,11 @@
 	color: orange;
 }
 
+/* .header{ */
+/* 	width: 100%; */
+/* } */
+
+
 @font-face {
 	font-family: 'droid_sansregular';
 	src: url('DroidSans-webfont.eot');
@@ -40,7 +45,7 @@ h2 {
 section {
 	display: inline-block;
 	vertical-align: top;
-	width: 29%;
+	width: 31%;
 	margin-right: 2%;
 }
 
