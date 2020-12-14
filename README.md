@@ -27,6 +27,7 @@
     - [Creez des formulaires](#creez-des-formulaires)
     - [Enrichissez votre site avec de la video et de l'audio](#enrichissez-votre-site-avec-de-la-video-et-de-laudio)
     - [Utilisez le responsive design avec les Media Queries](#utilisez-le-responsive-design-avec-les-media-queries)
+- [LightHouse](#lighthouse)
 
 <!-- /TOC -->
 
@@ -306,3 +307,9 @@ p {
 * On peut cibler les smartphones grace a une regle basee sur le nombre reel de pixels affiches a l'ecran : `max-device-width`.
 
 ![CV RUFFIN](WebContent/Resources/CV_RUFFIN.png)
+
+# LightHouse
+
+Dans la console d'inspection cliquer sur LightHouse pour inspecter vvotre page html et controler la performance du site.
+
+![LightHouse](WebContent/Resources/lighthouse.bmp)
