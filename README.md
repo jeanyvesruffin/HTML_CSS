@@ -29,6 +29,8 @@
     - [Utilisez le responsive design avec les Media Queries](#utilisez-le-responsive-design-avec-les-media-queries)
 - [LightHouse](#lighthouse)
 - [Cheat sheet](#cheat-sheet)
+    - [HTML](#html-1)
+    - [CSS](#css-1)
 
 <!-- /TOC -->
 
@@ -315,11 +317,11 @@ Dans la console d'inspection cliquer sur LightHouse pour inspecter vvotre page h
 
 
 # Cheat sheet
-HTML
+## HTML
 ![HTML](WebContent/Resources/html5-cheat-sheet.png)
 ![HTML](WebContent/Resources/HTML-CHEAT-SHEET.png)
 
-CSS
+## CSS
 ![CSS](WebContent/Resources/CSS-CHEAT-SHEET-1.png)
 ![CSS](WebContent/Resources/CSS-CHEAT-SHEET-2.png)
 ![CSS](WebContent/Resources/CSS-CHEAT-SHEET-3.png)
