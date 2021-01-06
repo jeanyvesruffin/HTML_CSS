@@ -28,6 +28,7 @@
     - [Enrichissez votre site avec de la video et de l'audio](#enrichissez-votre-site-avec-de-la-video-et-de-laudio)
     - [Utilisez le responsive design avec les Media Queries](#utilisez-le-responsive-design-avec-les-media-queries)
 - [LightHouse](#lighthouse)
+- [Cheat sheet](#cheat-sheet)
 
 <!-- /TOC -->
 
@@ -87,8 +88,6 @@
   </body>
 </html>
 ```
-
-[Cheat sheet HTML](WebContent/Resources/HTML-CHEAT-SHEET.png)
 
 ## Creez des liens (hyperlink)
 
@@ -313,3 +312,15 @@ p {
 Dans la console d'inspection cliquer sur LightHouse pour inspecter vvotre page html et controler la performance du site.
 
 ![LightHouse](WebContent/Resources/lighthouse.bmp)
+
+
+# Cheat sheet
+HTML
+![HTML](WebContent/Resources/html5-cheat-sheet.png)
+![HTML](WebContent/Resources/HTML-CHEAT-SHEET.png)
+
+CSS
+![CSS](WebContent/Resources/CSS-CHEAT-SHEET-1.png)
+![CSS](WebContent/Resources/CSS-CHEAT-SHEET-2.png)
+![CSS](WebContent/Resources/CSS-CHEAT-SHEET-3.png)
+![CSS](WebContent/Resources/CSS-CHEAT-SHEET-4.png)
